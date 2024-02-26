@@ -5,7 +5,7 @@ const About = () => {
 
     const data = [
         {
-            title: "What We Do",
+            title: "What We Do...",
             desc1: "Web Development: Web development involves creating and maintaining websites or web applications using technologies such as HTML, CSS, JavaScript, and frameworks for both front-end and back-end development.",
             desc2: "Mobile Development: Mobile development is the process of designing and building applications for smartphones and tablets, utilizing platform-specific languages like Swift and Kotlin or cross-platform frameworks such as React Native and Flutter.",
             desc3: "Graphic Designing: Graphic designing is the art of visually communicating ideas through the creation of compelling designs using tools like Adobe Creative Cloud, encompassing areas such as logo design, branding, and user interface design.",
