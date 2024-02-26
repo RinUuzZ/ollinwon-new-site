@@ -1,0 +1,125 @@
+.home{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(250, 248, 215);
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    mix-blend-mode: hard-light;
+}
+
+video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.homeContent{
+    width: 100%;
+    height: max-content;
+    padding: 8rem 1.5rem 3rem;
+    display: flex;
+    row-gap: 3rem;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    z-index: 100;
+}
+
+.rightIcons {
+  display: flex;
+  align-items: center;
+}
+
+.rightIcons .icon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.rightIcons .icon:hover {
+  transform: scale(1.2); 
+  color: black;
+}
+
+.textDiv{
+    padding: 2rem 0;
+}
+
+.smallText{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.homeTittle{
+  position: relative;
+  font-size: 1.8rem;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+  }
+  
+  .home video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+  }
+  
+  .homeContent {
+    position: relative;
+    z-index: 2; 
+  }
+  
+
+  .homeFooterIcons{
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .icon{
+    font-size: 25px;
+    margin: 0 5px;
+    color: white;
+    font-weight: 600;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .icon:hover{
+    transform: scale(1.2); 
+    color: rgb(238, 238, 238);
+    opacity: 0.8;
+  }

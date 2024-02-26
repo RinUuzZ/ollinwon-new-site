@@ -1,0 +1,261 @@
+.section{
+    padding: 4rem 0 2rem;
+}
+
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}  
+
+
+.AboutSection{
+    width: 100%;
+}
+
+.mtop{
+    margin-top: 50px;
+  }
+  
+  h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: #dfbd00;
+    margin: 20px 0;
+  }
+  
+  .heading h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .AboutSection p{
+    margin-bottom: 20px;
+  }
+  
+  .AboutSection .left{
+    padding-right: 30px;
+    margin-bottom: 50px;
+    margin-left: 166px;
+  }
+  
+  .AboutSection img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+  }
+  
+  .img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  @media screen and (max-width: 600px){
+    .grid{
+      grid-template-columns: 1fr;
+    }
+  
+    .AboutSection .left{
+      margin-left: 0;
+    }
+  
+    .AboutSection img{
+      width: 100%;
+    }
+  }
+  
+  .services{
+    align-items: center;
+    background-color: #fff4b6;
+    padding: 50px 0;
+  }
+  
+  .services .box{
+    text-align: left;
+  }
+  
+  .services img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .services .text{
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgba(0 0 0 /6%);
+    padding: 30px;
+    margin: 20px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .services .text h2{
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .wrapper .container{
+    min-width: 40%;
+    margin: auto;
+  }
+
+  .description{
+    color: rgb(119, 87, 0);
+  }
+
+  @media screen and (max-width: 600px){
+    .grid{
+      grid-template-columns: 1fr;
+    }
+  
+    .AboutSection .left, .container{
+      margin-left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .AboutSection img, .services img{
+      width: 100%;
+    }
+
+    h3, .services .text h2{
+      font-size: 14px; 
+    }
+
+    .heading h1{
+      font-size: 24px; 
+    }
+}
+  
+.services{
+    align-items: center;
+    background-color: #fff4b6;
+    padding: 790px 10px;
+}
+  
+.services .box{
+    text-align: left;
+}
+  
+.services img{
+    width: 100%;
+    height: auto; 
+    object-fit: contain;
+}
+  
+.services .text{
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .06);
+    padding: 30px;
+    margin: 20px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 1;
+}
+  
+.services .text h2{
+    font-weight: 500;
+    font-size: 22px; 
+    margin-bottom: 20px;
+}
+  
+.wrapper .container{
+    min-width: 40%;
+    margin: auto;
+}
+
+.description{
+    color: rgb(119, 87, 0);
+}
+
+@media screen and (max-width: 600px){
+  .AboutSection .left, .container{
+      margin-left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .AboutSection img, .services img{
+      width: 100%;
+  }
+
+  h3, .services .text h2{
+      font-size: 14px; 
+  }
+
+  .heading h1{
+      font-size: 24px; 
+  }
+
+  .grid{
+      grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .AboutSection .left, .container{
+      margin-left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .AboutSection img{
+      width: 100%;
+  }
+
+  h3, .services .text h2{
+      font-size: 14px; 
+  }
+
+  .heading h1{
+      font-size: 24px; 
+  }
+}
+
+.services{
+  align-items: center;
+  background-color: #fff4b6;
+  padding: 50px 0;
+}
+
+.services .box{
+  text-align: left;
+}
+
+.services img{
+  width: 100%;
+  height: auto; 
+  object-fit: contain;
+}
+
+.services .text{
+  background-color: #fff;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .06);
+  padding: 30px;
+  margin: 20px;
+  margin-top: -30px;
+  position: relative;
+  z-index: 1;
+}
+
+.services .text h2{
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.wrapper .container{
+  min-width: 40%; 
+  margin: auto;
+}
+
+.description{
+  color: rgb(119, 87, 0);
+}

@@ -1,0 +1,123 @@
+.tittle{
+  font-size: 30px;
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-left: 30px;
+}
+
+.about {
+  height: 630px;
+  background: linear-gradient(to bottom, #fff2b8, #fffdee ); 
+  color: #fff;
+  margin-top: 35px;
+  padding: 80px 0;
+}
+
+.about h1{
+  font-size: 40px;
+  color: rgb(128, 115, 0);
+  margin-right: 20px;
+}
+
+.about h2{
+  font-weight: 500;
+  font-size: 22px;
+  margin: 10px 0 20px 0;
+}
+
+.about h2{
+  font-weight: 800;
+  font-size: 20px;
+  color: #000;
+}
+
+.about p{
+  color: #000;
+}
+
+.mtop{
+  margin-top: 50px;
+}
+
+h3{
+  font-size: 15px;
+  font-weight: 500;
+  color: #dfbd00;
+  margin: 20px 0;
+}
+
+.heading h1{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.AboutSection p{
+  margin-bottom: 20px;
+}
+
+.AboutSection .left{
+  padding-right: 30px;
+  margin-bottom: 50px;
+  margin-left: 166px;
+}
+
+.AboutSection img{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+
+.img{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+} 
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr; 
+    margin-left: 15px;  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 40px 0;
+  }
+  
+  .about h1 {
+    font-size: 30px; 
+  }
+  
+  .about h2 {
+    font-size: 18px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    height: auto; 
+    padding: 20px 10px;
+  }
+  
+  .about h1, .about h2 {
+    margin-right: 10px; 
+  }
+}
